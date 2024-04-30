@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-Commerce</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>E-Commerce</h1>
+      <input type="text" placeholder="Enter an item name" />
+      <div>
+        <button id="open-btn">Basket</button>
+        <button>Sign Up</button>
+        <button>Sign in</button>
+      </div>
+    </header>
+    <main>
+      <!-- Kategoriler -->
+      <div class="category-wrapper">
+        <h1>Categories</h1>
+        <div class="categories"></div>
+      </div>
+      <!-- Ürünler -->
+      <div class="product-wrapper">
+        <h1>Products</h1>
+        <div class="products"></div>
+      </div>
+
+      <div class="modal-wrapper">
+        <div class="modal">
+          <img id="close-btn" src="images/close.png" />
+          <div class="modal-list"></div>
+          <div class="total">
+            Total:
+            <span id="modal-info"> 0 </span>
+            $
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <address>
+        2023 | created by &copy;
+        <a href="https://www.linkedin.com/in/developersakir/">Sakir P.</a> &reg;
+        all right reserved!
+      </address>
+    </footer>
+
+    <script src="main.js"></script>
+  </body>
+</html>
